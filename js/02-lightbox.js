@@ -24,7 +24,7 @@ listEl.addEventListener("click", openImageInModal);
 function openImageInModal(event) {
 	event.preventDefault();
 
-	const lightBox = new SimpleLightBox(".gallery a", {
+	const lightBox = new SimpleLightbox(".gallery a", {
 		captionPosition: "bottom",
 		captionsData: "alt",
 		captionDelay: 250,
