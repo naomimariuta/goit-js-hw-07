@@ -25,8 +25,8 @@ function openImageInModal(event) {
 	event.preventDefault();
 
 	const lightBox = new SimpleLightBox(".gallery a", {
-		captionPosition: "center",
+		captionPosition: "bottom",
 		captionsData: "alt",
-		captionDelay: 150,
+		captionDelay: 250,
 	});
 }
